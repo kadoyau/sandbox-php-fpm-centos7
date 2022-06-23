@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  centos7-phpfpm:
+    container_name: "centos7-phpfpm"
+    build: .
+    platform: linux/x86_64
+    tty: true
+
